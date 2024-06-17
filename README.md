@@ -29,6 +29,40 @@ O projeto utiliza a rede Vision Transformer (ViT) específica `facebook/dino-vit
 
 A escolha deste modelo contribuiu significativamente para a precisão e robustez dos resultados obtidos.
 
+## Resultados
+
+O modelo `facebook/dino-vitb16` alcançou os seguintes resultados durante o treinamento e avaliação:
+
+- **Avaliação após 1 época:**
+  - Loss: 0.1539
+  - Acurácia: 95.35%
+  - Tempo de execução: 9.35s
+  - Amostras por segundo: 89.58
+  - Passos por segundo: 22.45
+
+- **Avaliação após 2 épocas:**
+  - Loss: 0.1378
+  - Acurácia: 95.35%
+  - Tempo de execução: 9.35s
+  - Amostras por segundo: 89.62
+  - Passos por segundo: 22.46
+
+- **Avaliação após 3 épocas:**
+  - Loss: 0.1007
+  - Acurácia: 97.37%
+  - Tempo de execução: 8.91s
+  - Amostras por segundo: 94.07
+  - Passos por segundo: 23.57
+
+- **Métricas finais de treinamento após 3 épocas:**
+  - Tempo total de treinamento: ~287s
+  - Amostras por segundo: ~35
+  - Passos por segundo: ~3.5
+  - Loss médio de treinamento: ~0.1471
+
+Esses resultados demonstram a eficácia do ajuste fino realizado no modelo `facebook/dino-vitb16`, refletindo uma alta acurácia e eficiência no processo de aprendizagem.
+
+
 
 ## Citações
 
