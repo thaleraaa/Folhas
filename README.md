@@ -19,6 +19,16 @@ O conjunto de dados foi compilado utilizando os populares conjuntos de dados Pla
 Fonte de dados:
 https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset
 
+## Metodologia
+
+O projeto utiliza a rede Vision Transformer (ViT) específica `facebook/dino-vitb16` para a classificação de doenças foliares em plantas de milho. As etapas seguidas na implementação do modelo foram:
+
+1. **Escolha do Modelo de Rede:** Foi selecionado o modelo pré-treinado devido à sua eficácia comprovada em tarefas de visão computacional.
+2. **Ajuste Fino de Aprendizado:** Realizamos o fine-tuning do modelo com nosso conjunto de dados específico para melhorar a precisão da classificação.
+3. **Verificação de Resultados e Tempo de Aprendizagem:** Após o ajuste fino, avaliamos a performance do modeloem termos de precisão e eficiência, considerando também o tempo necessário para o aprendizado.
+
+A escolha deste modelo contribuiu significativamente para a precisão e robustez dos resultados obtidos.
+
 
 ## Citações
 
